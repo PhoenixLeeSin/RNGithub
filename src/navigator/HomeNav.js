@@ -5,7 +5,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Popular from '../pages/popular/Popular';
 import Trending from '../pages/trending/Trending';
 import Favorite from '../pages/favorite/Favorite';
-// import My from '../pages/my/My';
+import My from '../pages/my/My';
 import {useTheme} from '@react-navigation/native';
 
 const Tab = createBottomTabNavigator();
@@ -36,7 +36,7 @@ const HomeNav = () => {
       <Tab.Screen name="Popular" component={Popular} />
       <Tab.Screen name="Trending" component={Trending} />
       <Tab.Screen name="Favorite" component={Favorite} />
-      {/*<Tab.Screen name="My" component={My} />*/}
+      <Tab.Screen name="My" component={My} />
     </Tab.Navigator>
   );
 };

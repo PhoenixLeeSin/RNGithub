@@ -27,8 +27,8 @@ const Favorite = () => {
         statusBar={{backgroundColor: colors.primary}}
       />
       <Tab.Navigator>
-        <Tab.Screen name={'Popular'} component={PopularRoute} />
-        <Tab.Screen name={'Trending'} component={TrendingRoute} />
+        <Tab.Screen name={'Popular哈拉少'} component={PopularRoute} />
+        <Tab.Screen name={'Trending奥利给'} component={TrendingRoute} />
       </Tab.Navigator>
     </View>
   );

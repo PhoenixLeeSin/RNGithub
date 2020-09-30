@@ -8,10 +8,10 @@ import HomeNav from './HomeNav';
 import {useTheme} from '@react-navigation/native';
 
 const stackRoutes = {
-  // Web: WebScreen,
-  // Tag: Tag,
+  Web: WebScreen,
+  Tag: Tag,
   // Search: Search,
-  // Theme: Theme,
+  Theme: Theme,
 };
 
 const Stack = createStackNavigator();
